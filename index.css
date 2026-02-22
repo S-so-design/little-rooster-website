@@ -1,0 +1,23 @@
+h1{
+  color:red;
+}
+button
+{
+  color:white;
+  background-color:	#D62828;
+  text-align:right;
+  line-height: 1;
+}
+a{
+  text-decoration:none;
+}
+body{
+  background-color: 	#FFFFFF;
+}
+form{
+  line-height: 2;
+}
+table{
+  word-spacing: 4px;
+  padding: 0,20px;
+}
