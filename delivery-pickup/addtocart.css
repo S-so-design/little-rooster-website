@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    color: red;
+}
+h2{
+    text-align: center;
+}
+form{
+    text-align: left;
+}
+button{
+    background-color:white;
+    color:red;
+    font-size:large;
+
+}
