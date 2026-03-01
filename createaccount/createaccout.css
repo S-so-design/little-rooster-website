@@ -25,11 +25,24 @@ p{
   font-family: Verdana, sans-serif;
 }
 
-footer{
-  text-align: left;
-  margin-left:150px ;
-  
+form{
+  width: 40%;
+  margin-left:120px;
 }
-a:hover{
-  text-decoration: none;
+#First-Name{
+  width:45%;
+}
+#Last-Name{
+  width: 40%;
+}
+.cr1{
+    display:flex;
+    flex-wrap:wrap;
+}
+.cr2{
+    width:45%;
+}
+
+.cr3{
+    width:45%;
 }
