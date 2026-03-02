@@ -72,4 +72,17 @@ h1{
 .terms{
    display: flex;
   justify-content: center;
-  margi
+  margin-top:1rem;
+}
+.createaccountbutton {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  gap:1rem;
+}
