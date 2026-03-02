@@ -1,48 +1,75 @@
+html{
+  font-size: 16px;
+}
+body{
+  padding: 0rem;
+  margin: 0rem;
+  box-sizing:boder-box;
+}
 h1{
-  text-align:left;
-  color:#D62828 ;
-  margin: 0px;
-  font-family:Segoe UI", sans-serif;
+  color: red;
+  font-weight: 800;
+  font-family: "Nunito", sans-serif;
 }
-
-.tag1{
-  color:#FFB703 ;
+#tag1{
+  color: #DDAA33;
+  /*This is the main heading */
 }
-h2{
-  margin-top:100px;
-  margin-bottom:4px;  
-  text-align:left;
-  margin-left:150px;
-  font-weight:800;
-  font-size:210%;
-  font-family: Segoe UI", sans-serif;
+.form1{
+  display: flex;
+  justify-content: center;
+  font-family:"Nunito", sans-serif;
+  font-weight:700;
+  margin-top:10rem;
+  margin-bottom:2rem;
 }
-p{
-  text-align:left;
-  margin-left:150px;
-  color:#555;
-  margin-top:0;   
-  font-family: Verdana, sans-serif;
+.msg1{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top:-3rem;
+  color: grey;
+  font-weight: 300;
+  font-size:small;
 }
-
-form{
-  width: 40%;
-  margin-left:120px;
+/*here i contral form*/
+.name{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap:1rem;
+  line-height: 1rem;
 }
-#First-Name{
-  width:45%;
+.phone{
+  display: flex;
+  justify-content:center;
+  align-content: center;
+  line-height: 1rem;
+  margin-top: 1rem;
+  transform: translateX(-8.5rem);
+  gap:1rem;
 }
-#Last-Name{
-  width: 40%;
+.email{
+  display: flex;
+  justify-content: center;
+  margin-top:1rem;
+  transform: translateX(-8.5rem);
+  gap:1rem;
 }
-.cr1{
-    display:flex;
-    flex-wrap:wrap;
+.password{
+  display: flex;
+  justify-content: center;
+  margin-top:1rem;
+  transform: translateX(-7.8rem);
+  gap:1rem;
 }
-.cr2{
-    width:45%;
+.age{
+  display: flex;
+  justify-content: center;
+  transform: translateX(-3.8rem);
+  margin-top:1rem;
 }
-
-.cr3{
-    width:45%;
-}
+.terms{
+   display: flex;
+  justify-content: center;
+  margi
