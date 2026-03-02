@@ -3,6 +3,8 @@ html{
 }
 body{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background-color: black;
 }
 h1{
@@ -57,4 +59,34 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+/* second beer addition */
+.secondsideheadning h2{
+    width: 100%;
+    height: 2rem;
+    color: white;
+    background-color: orange;
+    text-align: right;
+    font-family:"Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 2rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    margin-right: 500rem;
+}
+.beer2{
+    background-color: orange;
+    display: flex;
+    justify-content: right;
+    height: 10rem;
+    gap: 4rem;
+    margin-top: 0rem;
+    padding-top: 1rem;
+    
+}
+#buyit{
+    display: flex;
+    justify-content: flex-start;
+    background-color: orange;
+    margin-bottom: 20rem;
 }
