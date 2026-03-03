@@ -20,7 +20,7 @@ h1{
   justify-content: center;
   font-family:"Nunito", sans-serif;
   font-weight:700;
-  margin-top:10rem;
+  margin-top:4rem;
   margin-bottom:2rem;
 }
 .msg1{
@@ -31,14 +31,18 @@ h1{
   color: grey;
   font-weight: 300;
   font-size:small;
+  font-family:"Nunito", sans-serif;
 }
 /*here i contral form*/
 .name{
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-content: center;
   gap:1rem;
   line-height: 1rem;
+  font-family:"Nunito", sans-serif;
+  
 }
 .phone{
   display: flex;
@@ -47,28 +51,35 @@ h1{
   line-height: 1rem;
   margin-top: 1rem;
   gap:1rem;
+  font-family:"Nunito", sans-serif;
+  transform: translateX(-7.8rem);
+  
 }
 .email{
   display: flex;
   justify-content: center;
   margin-top:1rem;
   gap:1rem;
+  font-family:"Nunito", sans-serif;
 }
 .password{
   display: flex;
   justify-content: center;
   margin-top:1rem;
   gap:1rem;
+  font-family:"Nunito", sans-serif;
 }
 .age{
   display: flex;
   justify-content: center;
   margin-top:1rem;
+  font-family:"Nunito", sans-serif;
 }
 .terms{
    display: flex;
   justify-content: center;
   margin-top:1rem;
+  font-family:"Nunito", sans-serif;
 }
 .createaccountbutton {
   display: flex; 
@@ -76,23 +87,32 @@ h1{
   align-items: center;
   margin-top: 1rem;
   margin-bottom: 3rem;
-}
-.tandc{
-  display: flex;
-  justify-content: center;
-  margin-top:1rem;
-  margin-bottom: 1rem;
-  gap: 1rem;
+  font-family:"Nunito", sans-serif;
 }
 .Details{
   width: 50rem;
   margin: auto;
   border: 2px solid black;
+  padding-top:1rem;
+  font-family:"Nunito", sans-serif;
+}
+.terms{
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  font-size: small;
+  font-family:"Nunito", sans-serif;
+  gap: 0.5rem;
 }
 .lastline{
   display: flex;
   justify-content: center;
+  align-items: center;
+  color: grey;
+  font-size: x-small;
+  font-family:"Nunito", sans-serif;
 }
+
 
 
 
