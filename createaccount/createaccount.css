@@ -127,7 +127,17 @@ h1{
   font-size: x-small;
   font-family:"Nunito", sans-serif;
 }
-
+}
+/*updates*/
+.phone{
+  padding-right: 1rem;
+}
+.email{
+  padding-right:1rem;
+}
+.password{
+  padding-right: 1rem;
+}
 
 
 
