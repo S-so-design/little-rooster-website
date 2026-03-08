@@ -84,15 +84,14 @@ h1{
   justify-content: left;
   margin-left: 13rem;
   margin-top:20px;
-  outline:2px solid black;
 }
 #additem2{
   display: flex;
   flex-direction: column;
   justify-content: end;
-  margin-left: 1.3rem;
+  margin-left: 2.3rem;
   line-height: 1rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
   text-align: center;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -102,6 +101,7 @@ h1{
   font-weight: 800;
   background-color: black;
   color: white;
+  font-family:"Open Sans", sans-serif ;
 }
 #additem2{
   border:2px solid black;
@@ -111,4 +111,107 @@ h1{
   color: black;
   background-color: white;
   transition: 0.2ms;
+  
 }
+.infoaboutchamp{
+  margin-left: 3rem;
+  font-family:"Open Sans", sans-serif  ;
+}
+.rate{
+  margin-left: 2.3rem;
+  margin-bottom: 0rem;
+  font-family: "Open Sans", sans-serif ;
+}
+.backgroundbox{
+  outline: 2px solid black;
+  height: 23rem;
+  width: 15rem;
+}
+.backgroundbox:hover{
+  transform: rotateY(180deg);
+  transition:2ms;
+}
+
+.card-wrapper {
+  width: 200px;
+  text-align: center;
+  margin-left: 13rem;
+}
+
+/* ROTATING CARD */
+.flip-card {
+  width: 200px;
+  height: 260px;
+  perspective: 1000px;
+  margin-bottom: 10px;
+}
+
+.flip-card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background: white;
+}
+
+.flip-card-back {
+  background: #eee;
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #F36F21;
+  font-family: "Cookie", cursive;
+}
+
+/* BUTTON stays normal */
+#additem2 {
+  margin-top: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
