@@ -75,3 +75,40 @@ h1{
     transform: scale(1.1);
     background-color: green;
 }
+.col2 img{
+  height: 20rem;
+}
+.container2{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-left: 13rem;
+  margin-top:20px;
+  outline:2px solid black;
+}
+#additem2{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-left: 1.3rem;
+  line-height: 1rem;
+  margin-top: 2rem;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top:0.5rem;
+  padding-bottom: 0.5rem;
+  font-size:large ;
+  font-weight: 800;
+  background-color: black;
+  color: white;
+}
+#additem2{
+  border:2px solid black;
+   border-radius: 30px
+}
+#additem2:hover{
+  color: black;
+  background-color: white;
+  transition: 0.2ms;
+}
