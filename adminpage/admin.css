@@ -29,7 +29,7 @@ body {
 /* Inventory Box */
 .beam1_container {
   width: 75%;
-  height: 50%;
+  height: auto;
   border: 2px solid black;
   margin-top: 2rem;
   padding: 1rem;
