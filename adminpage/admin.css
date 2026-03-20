@@ -52,3 +52,11 @@ h2 {
   font-family: "Iosevka Charon Mono", monospace;
   font-weight:800;
 }
+.lastpart{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.lastpart button{
+  font-family: "Iosevka Charon Mono", monospace;
+}

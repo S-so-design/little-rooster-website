@@ -4,6 +4,7 @@
     <title>Admin | Little Rooster 🐓</title>
     <link rel="stylesheet" href="admin.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   </head>
 
   <body>
@@ -14,15 +15,54 @@
 
     <div class="beam1_container">
       <h2>Inventory Management</h2>
-
       <form>
-        <div class="mainform">
-          <label for="product_name">Product Name</label>
-          <input type="text" id="product_name" required placeholder="Please enter the Product Name">
-        </div>
-      </form>
+<div class="mb-3">
+  <label for="productName" class="form-label">Product Name</label>
+  <input type="text" class="form-control" id="productName" required>
+</div>
 
-    </div>
+<div class="mb-3">
+  <label for="brandName" class="form-label">Brand Name</label>
+  <input type="text" class="form-control" id="brandName" required>
+</div>
 
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault1">
+  <label class="form-check-label" for="radioDefault1">whiskey</label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault2">
+  <label class="form-check-label" for="radioDefault2">vodka</label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault3">
+  <label class="form-check-label" for="radioDefault3">Beer</label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault4">
+  <label class="form-check-label" for="radioDefault4">wine</label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault4">
+  <label class="form-check-label" for="radioDefault4">Tequila</label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="radioDefault" id="radioDefault4">
+  <label class="form-check-label" for="radioDefault4">Rum</label>
+</div>
+<div class="lastpart">
+<button type="button" class="btn btn-outline-success mt-2">Save</button>
+<button type="button" class="btn btn-outline-warning mt-2">Next</button>
+<button type="button" class="btn btn-outline-danger mt-2">Exit</button>  
+</div>
+
+</form>
+    
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
 </html>
