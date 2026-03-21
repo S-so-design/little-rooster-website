@@ -1,135 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--This is the header part-->
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>&#x1F413; Little Rooster</title>
+  <title>🐓 Little Rooster</title>
+
   <link rel="stylesheet" href="index.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
 </head>
-
-
-<!--From here body starts-->
 
 <body>
 
-  <!-- cearting a serach section   -->
- <div class="topsection">
-  <h1 class="heading">&#128019; Little Roo<span class="restheading">ster</span></h1>
+  <!-- Header / Search Section -->
+  <div class="topsection">
 
-  <div class="search">
-    <form action="/search">
-      <label for="search"></label>
-      <input type="text" name="search" id="search" size="40"
-        placeholder="What can we help you to find you today">
-      <button>Search</button>
-    </form>
+    <h1 class="heading">🐓 Little Roo<span class="restheading">ster</span></h1>
+
+    <div class="search">
+      <form action="/search">
+        <input
+          type="text"
+          name="search"
+          id="search"
+          size="40"
+          placeholder="What can we help you find today?"
+        >
+        <button type="submit">Search</button>
+      </form>
+    </div>
+
   </div>
-</div>
 
- 
-
-
-  <!--Create account form-->
+  <!-- Account Buttons -->
   <a href="createaccount/createaccount.html"><button>Create Account</button></a>
-  <!--sigin-->
   <a href="createaccount/sigin.html"><button>Sign In</button></a>
-  <!-- sigin as admin -->
-   <a href="adminpage/admin.html"><button>Sign In as admin</button></a>
-  <hr>
-  <img src="pic/img_1.jpg" alt="Little Rooster" width="300" height="300">
+  <a href="adminpage/admin.html"><button>Sign In as Admin</button></a>
 
-  <!--Different alcohol we have-->
+  <hr>
+
+  <img src="pic/img_1.jpg" alt="Little Rooster Store" width="300" height="300">
+
+  <!-- Shop Collection -->
   <div>
+
     <h2>Shop Our Collection</h2>
     <hr>
+
     <table>
+
       <tr>
-        <th>&#x1F377; Wines </th>
-        <th><a href="champagne/champagne.html"> &#127870; Champagne</a></th>
-        <th> &#127866; Beer</th>
+        <th>🍷 Wines</th>
+        <th><a href="champagne/champagne.html">🍾 Champagne</a></th>
+        <th>🍺 Beer</th>
         <th>Vodka</th>
-        <th> &#127864; Tequila</th>
-        <th> &#129347; Whiskey</th>
-        <th> &#129380; Seltzes</th>
-        <th> &#127861; Non-alcoholics</th>
+        <th>🍸 Tequila</th>
+        <th>🥃 Whiskey</th>
+        <th>🧊 Seltzers</th>
+        <th>🍹 Non-Alcoholic</th>
       </tr>
+
       <tr>
+
         <td>
           <ul>
-            <li> <a href="wines/redwine.html">Red</a></li>
+            <li><a href="wines/redwine.html">Red</a></li>
             <li><a href="wines/whitewine.html">White</a></li>
-            <li><a href="wines/rosewine.html">Rose</a></li>
+            <li><a href="wines/rosewine.html">Rosé</a></li>
           </ul>
         </td>
-        <td> </td>
+
+        <td></td>
+
         <td>
           <ul>
-            <li><a href="Regular">Regular</a></li>
+            <li><a href="beer/regular.html">Regular</a></li>
             <li><a href="beer/ipa.html">IPA</a></li>
           </ul>
         </td>
-        <td><a href="Vodka">Vodka</a></td>
-        <td><a href="Tequila">Tequila</a></td>
-        <td><a href="Whiskey">Whiskey</a></td>
-        <td><a href="Seltzer-Vodka">Seltzers</a></ul>
-        </td>
-        <td><a href="Non-alcoholic drinks">Non-alcoholics</a></td>
+
+        <td><a href="vodka/vodka.html">Vodka</a></td>
+
+        <td><a href="tequila/tequila.html">Tequila</a></td>
+
+        <td><a href="whiskey/whiskey.html">Whiskey</a></td>
+
+        <td><a href="seltzer/seltzer.html">Seltzers</a></td>
+
+        <td><a href="non-alcoholic/non-alcoholic.html">Non-Alcoholics</a></td>
+
       </tr>
+
     </table>
+
   </div>
-  <!--Offer-->
-  <h2>Offer</h2>
+
+  <!-- Offers -->
+
+  <h2>Offers</h2>
   <hr>
+
   <table>
     <tr>
       <td>
-        <a href="offer/titos.html"><button>Titos</button></a><b> 10% BELOW STATE MINIMUM</b>
+        <a href="offer/titos.html">
+          <button>Tito's</button>
+        </a>
+        <strong>10% BELOW STATE MINIMUM</strong>
       </td>
     </tr>
   </table>
 
-  <!--Delivery option -->
-  <h2>Pick up and Delivery</h2>
-  <hr>
-  <a href="delivery-pickup/delivery-pickup.html"><button>Pick up or Delivery</button></a>
-  <!--Public review-->
-  <h2>Comments</h2>
-  <hr>
-  <p>Great selection and fair prices. The staff really knows their products and always points me toward something new I
-    end up loving.</p>
-  <p>Clean, well‑organized store with a surprisingly wide variety of wines, spirits, and craft beers. Shopping here is
-    always quick and easy.</p>
-  <p>Excellent customer service. The team is friendly, helpful, and makes every visit feel welcoming. My go‑to spot in
-    the area.</p>
+  <!-- Pickup / Delivery -->
+
+  <h2>Pickup and Delivery</h2>
   <hr>
 
-  <!--Footer ending part of page-->
+  <a href="delivery-pickup/delivery-pickup.html">
+    <button>Pick up or Delivery</button>
+  </a>
+
+  <!-- Reviews -->
+
+  <h2>Comments</h2>
+  <hr>
+
+  <p>
+    Great selection and fair prices. The staff really knows their products and always
+    points me toward something new I end up loving.
+  </p>
+
+  <p>
+    Clean, well-organized store with a surprisingly wide variety of wines,
+    spirits, and craft beers. Shopping here is always quick and easy.
+  </p>
+
+  <p>
+    Excellent customer service. The team is friendly, helpful, and makes every visit
+    feel welcoming. My go-to spot in the area.
+  </p>
+
+  <hr>
+
+  <!-- Footer -->
+
   <footer>
+
     <table>
 
       <tr>
+
         <td>
           <h4>Contact Customer Care</h4>
           <p>+1 (860) 349-8124</p>
-          <p>Mon-Sun 9a.m- 8p.m ET</p>
-          <p>Copyright &copy; Little Rooster &#128019; <br />
-            Spirit sales where allowed by law</p>
+          <p>Mon–Sun 9 a.m – 8 p.m ET</p>
+
+          <p>
+            Copyright © Little Rooster 🐓
+            <br>
+            Spirit sales where allowed by law
+          </p>
         </td>
+
         <td>
-          <!-- About the store-->
-          <h4>About us</h4>
+
+          <h4>About Us</h4>
+
           <ul>
-            <li><a href="Our Store">Our Store</a></li>
-            <li><a href="Community">Community</a></a></li>
-            <li><a href="Careers">Careers</a></li>
+            <li><a href="our-store.html">Our Store</a></li>
+            <li><a href="community.html">Community</a></li>
+            <li><a href="careers.html">Careers</a></li>
           </ul>
+
         </td>
+
         <td>
-          <!--Store-->
+
           <h4>Store</h4>
+
           <ul>
             <li><a href="store-locator.html">Store Locator</a></li>
             <li><a href="classes-events.html">Classes & Events</a></li>
@@ -139,36 +188,53 @@
           </ul>
 
         </td>
+
         <td>
+
           <h4>Customer Service</h4>
+
           <ul>
             <li><a href="contact-us.html">Contact Us</a></li>
             <li><a href="order-status.html">Order Status</a></li>
-            <li><a href="total-convenience.html">Total Convenience</a></li>
             <li><a href="store-pickup.html">Store Pickup</a></li>
             <li><a href="delivery.html">Delivery</a></li>
             <li><a href="shipping.html">Shipping</a></li>
             <li><a href="returns.html">Returns</a></li>
             <li><a href="general-faq.html">General FAQ</a></li>
-            <li><a href="request-missing-points.html">Request Missing Points</a></li>
           </ul>
+
         </td>
+
       </tr>
+
     </table>
-    <!--lowest of the footer of main page-->
+
     <hr>
+
+    <!-- Bottom Footer -->
+
     <table>
+
       <tr>
+
         <td><a href="footer/termsandcondi.html" target="_blank">Terms and Conditions</a></td>
-        <td><a href="footer/termsandcondi.html" traget="_blank">Pricay Policy</a></td>
-        <td><a href="Do not sell or share my info" traget="_blank">Do not share or sell my info</a> </td>
-        <td><a href="Sitemap" traget="_blank">Sitemap</a></td>
-        <td><a href="Accessibility Policy" target="_blank">Accessibility Policy</a></td>
-        <td><a href="You Choose your Pricay" traget="-blank">Your Privacy Choices</a></td>
+
+        <td><a href="footer/privacy.html" target="_blank">Privacy Policy</a></td>
+
+        <td><a href="footer/do-not-sell.html" target="_blank">Do Not Sell or Share My Info</a></td>
+
+        <td><a href="footer/sitemap.html" target="_blank">Sitemap</a></td>
+
+        <td><a href="footer/accessibility.html" target="_blank">Accessibility Policy</a></td>
+
+        <td><a href="footer/privacy-choices.html" target="_blank">Your Privacy Choices</a></td>
+
       </tr>
+
     </table>
 
   </footer>
+
 </body>
 
 </html>
