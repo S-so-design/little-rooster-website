@@ -1,21 +1,23 @@
 body {
   margin: 0;
-  padding: 25px;
+  padding: 0;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 100vh;
+  background-color: #14213d !important;
 }
 
 /* Header */
 .container_for_headning {
   width: 100%;
   height: 10rem;
-  background: #0dcaf0;
-  padding: 1rem;
+  background: #fca311;
+  margin-top: 0;
   display: flex;
   align-items: center;
+  
 }
 
 .title {
@@ -28,14 +30,18 @@ body {
 
 /* Inventory Box */
 .beam1_container {
-  width: 75%;
+  width: 30%;
   height: auto;
   border: 2px solid black;
+  border-radius: 1rem;
   margin-top: 2rem;
   padding: 1rem;
   display: flex;
   flex-direction: column;
+  justify-content: left;
   gap: 1rem;
+  box-shadow: 0 15px 30px black;
+  background-color: #ffffff;
 }
 
 /* Form layout */
@@ -59,4 +65,37 @@ h2 {
 }
 .lastpart button{
   font-family: "Iosevka Charon Mono", monospace;
+}
+#radioDefault1:hover{
+  color: #0dcaf0;
+  accent-color: #0dcaf0;
+}
+.form-check-input {
+  accent-color: #0dcaf0;
+  transform: scale(1.2);
+  cursor: pointer;
+  font-family: "Iosevka Charon Mono", monospace;
+}
+#radioDefault2:hover{
+  color:#10b981 ;
+  accent-color: #10b981;
+}
+#radioDefault3:hover{
+  color:#3b82f6 ;
+  accent-color: #3b82f6;
+}
+#radioDefault4:hover{
+  color:#8b5cf6 ;
+  accent-color: #8b5cf6;
+}
+#radioDefault5:hover{
+  color:#f59e0b ;
+  accent-color: #f59e0b;
+}
+#radioDefault6:hover{
+  color:#f43f5e ;
+  accent-color: #f43f5e;
+}
+.headningpart{
+  color: yellow;
 }
