@@ -54,7 +54,7 @@ This project shows my **effort, learning, and commitment** to building functiona
 
 **Rohith Pawar**  
 - GitHub: [S-so-design](https://github.com/S-so-design)  
-- Email: rohithpawarj@gmail.com  
+- Email: pawarrohith67@gmail.com  
 
 ---
 
