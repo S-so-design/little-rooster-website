@@ -15,7 +15,5 @@ const selectRadio = document.querySelector('input[name = "radioName"]:checked').
 const saveButton = document.querySelector("#save")
 
 saveButton.addEventListener("click", () => {
-    let arr = []
-    arr.push
-    console.log
+    
 })
