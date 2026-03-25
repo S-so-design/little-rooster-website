@@ -99,3 +99,7 @@ h2 {
 .headningpart{
   color: yellow;
 }
+a.btn {
+  text-decoration: none;
+  color: inherit;
+}
